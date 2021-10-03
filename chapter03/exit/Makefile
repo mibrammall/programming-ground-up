@@ -6,7 +6,7 @@ build:
 	@as ./enter_exit.s -o exit.o
 
 link:
-	@ld exit.o -o exit
+	@ld exit.o -o exit.bin
 
 clean:
 	@rm exit.o
